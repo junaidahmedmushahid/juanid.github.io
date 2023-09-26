@@ -1,0 +1,242 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://wallpaperaccess.com/full/358836.jpg");
+}
+.about {
+  background-image: url("https://wallpaperaccess.com/full/358836.jpg");
+  height: 800px;
+}
+h2 {
+  text-align: center;
+}
+img{
+  border-radius: 100%;
+}
+
+/* background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Navigation styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* welcome section styles */
+.welc {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.welc h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.welc p {
+  font-size: 1.5em;
+}
+
+/* Portfolio section styles */
+.portfolio {
+  padding: 50px 20px;
+}
+
+.profile-picture {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* Contact Me */
+.contact {
+  height: 800px;
+  background-image: url("https://wallpaperaccess.com/full/358836.jpg");
+  background-color: #fff;
+  padding: 50px 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: inline-block;
+  text-align: left;
+}
+
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.contact form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.contact form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* success message */
+.success-message {
+  color: #28a745;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* portfolio */
+
+.portfolio .education-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.portfolio .education-item img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.portfolio .education-details {
+  flex-grow: 1;
+}
+
+.portfolio .education-details h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.portfolio .education-details p {
+  margin-bottom: 5px;
+}
+
+.portfolio .education-details p:last-child {
+  margin-bottom: 0;
+}
+
+/*Skills-list*/
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list li:hover {
+  background-color: #e0e0e0;
+}
+
+/* Education-Container */
+
+.education-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.education-container.open {
+  max-height: 1000px;
+}
+.skills-list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.skills-list.open {
+  max-height: 1000px;
+}
+
+.footer {
+  background-color: white;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-content a img {
+  width: 40px;
+}
+
+/* about.html */
+.about {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #666;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}
