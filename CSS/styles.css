@@ -33,12 +33,33 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 5px;
 }
 
+
+nav {
+        
+  padding-bottom: 0px ;
+  padding-top: 5px;
+}
 nav ul {
   list-style-type: none;
+  padding: 0;
+  text-align: center;
 }
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+
 
 nav ul li {
   display: inline;
@@ -54,11 +75,12 @@ nav ul li a {
 .welc {
   text-align: center;
   padding: 100px 20px;
+  margin-bottom: -50px;
 }
 
 .welc h1 {
   font-size: 3em;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .welc p {
